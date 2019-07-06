@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Змейка</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="info">
+		<button type="button" onClick="refreshPage()">Начать заново</button>
+		<script>
+			function refreshPage(){
+			    window.location.reload();
+			} 
+		</script>
+		<p id="score"></p>
+	</div>
+	<script src="script.js"></script>
+	<audio src="sound.mp3" autoplay="autoplay"></audio>
+</body>
+</html>
